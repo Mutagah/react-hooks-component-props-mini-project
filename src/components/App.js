@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="App">
       <Header name={blogData.name}/>
-      <About imageSrc={blogData.image} about={blogData.about}/>
+      <About image={blogData.image} about={blogData.about}/>
       <ArticleList posts={blogData.posts}/>
 
       You're on your own from here! Follow the deliverables; test things out in
